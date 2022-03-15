@@ -1,4 +1,5 @@
-# blogSystem
+# blogSystem has deploied on AWS EC2 server(http://billzhou.shop)
+
 This is a simple blogSystem for testing personal front end and back end skills.
 
 The front end is built by react and react-bootstrap with responsive features;
