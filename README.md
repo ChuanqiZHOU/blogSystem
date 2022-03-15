@@ -20,5 +20,5 @@ The back end is built by node.js(express) and MongoDB;
   node app.js
 # download the client folder
 
-read the README.md file to run the react part
+read the README.md file in client folder to run the react part
     
