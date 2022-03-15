@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    flex-direction: row !important;
+}
+.card-body {
+    width: 50vw;
+}
+
+.cardContainer {
+    margin: 3rem 4rem;
+}
+
+.imgContainer{
+    width: 30vw;
+
+    overflow: hidden;
+}
+.imgContainer:hover img, 
+.imgContainer:focus img {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+@media screen and (max-width: 991px) {
+
+    .card {
+    flex-direction: column !important;
+    width:100%;
+    border-radius: 0.15rem;
+    // overflow: hidden;
+    }
+    .imgContainer{
+        width: 100%;
+        height:25vh;
+    }
+    .cardImg {
+        height: 25vh;
+    }
+    .card-body{
+        width: 100%;
+    }
+}
+

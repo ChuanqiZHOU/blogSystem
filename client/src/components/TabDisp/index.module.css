@@ -1,0 +1,13 @@
+.tabDisp {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  margin: 2rem;
+}
+.title {
+  font-size: 1.5rem;
+}
+.titleEm {
+  font-size: 2rem;
+  font-weight: 700;
+}

@@ -1,0 +1,46 @@
+.biasContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 4vw;
+}
+.biasLeftImg {
+  height: 75vh;
+}
+.biasRight {
+  display: flex;
+  align-content: space-between;
+}
+.biasRightImg {
+  height: 15vh;
+}
+.imgContainer {
+  overflow: hidden;
+}
+.imgContainer:hover img,
+.imgContainer:focus img {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+@media screen and (max-width: 767px) {
+  .biasContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .biasLeft .imgContainer {
+    height: 25vh;
+  }
+  .biasLeft .imgContainer .biasLeftImg {
+    height: 25vh;
+  }
+  .biasRight {
+    width: 95vw;
+  }
+  .card {
+    margin: 1rem auto;
+    border-radius: 0.15rem;
+    overflow: hidden;
+  }
+  .card img {
+    height: 25vh;
+  }
+}

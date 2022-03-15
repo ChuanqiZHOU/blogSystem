@@ -1,0 +1,36 @@
+
+
+.card {
+    width: 25vw;
+    margin:1rem auto;
+    border-radius: 0.15rem;
+    overflow: hidden;
+}
+.imgContainer{
+    overflow: hidden;
+}
+.imgContainer:hover img, 
+.imgContainer:focus img {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+.cardContainer {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 991px) {
+    .card {
+    width:45vw;
+    border-radius: 0.15rem;
+    overflow: hidden;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .card {
+    width:95vw;
+    border-radius: 0.15rem;
+    overflow: hidden;
+    }
+}

@@ -1,0 +1,54 @@
+.footContainer {
+  padding: 2rem;
+  display: flex;
+  height: 20vh;
+  justify-content: center;
+  background-color: darkcyan;
+}
+.contact {
+  width: 30vw;
+  color: white;
+}
+.contact .contactTitle {
+  font-size: 2rem;
+}
+.contact .website {
+  font-size: 1.5rem;
+}
+.declaration {
+  width: 40vw;
+  color: white;
+}
+.declaration .decContent {
+  line-height: 2rem;
+}
+@media screen and (max-Width: 1200px) {
+  .footContainer {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact {
+    margin-left: 2rem;
+  }
+  .declaration {
+    margin-left: 40vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .website {
+    margin: 0 auto;
+  }
+  .declaration {
+    margin: 1rem auto 0;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+}
